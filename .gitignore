@@ -1,0 +1,19 @@
+# data (too large for GitHub; see README for download links)
+data/raw/
+data/processed/
+
+# old project files not meant for the public repo
+legacy_btech/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv*/
+venv/
+
+# macOS
+.DS_Store
+
+# personal study notes
+study_notes/

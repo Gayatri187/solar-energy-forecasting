@@ -1,0 +1,16 @@
+split,model,MAE (kWh),RMSE (kWh),nRMSE (%),Skill vs persistence
+val,Persistence,3.528,4.277,35.101,0.0
+val,Yesterday,2.47,4.43,36.354,-0.036
+val,Climatology,2.66,4.089,33.552,0.044
+val,Smart persistence,1.308,2.216,18.187,0.482
+val,Linear Regression,1.377,2.115,17.359,0.505
+val,Random Forest,1.13,1.974,16.201,0.538
+val,Gradient Boosting,1.198,2.01,16.494,0.53
+test,Persistence,3.403,4.112,34.035,0.0
+test,Yesterday,2.284,4.251,35.192,-0.034
+test,Climatology,2.459,3.889,32.193,0.054
+test,Smart persistence,1.221,2.095,17.338,0.491
+test,Linear Regression,1.189,1.93,15.976,0.531
+test,Random Forest,0.989,1.852,15.329,0.55
+test,Gradient Boosting,1.066,1.895,15.684,0.539
+test,GB + perfect weather (upper bound),1.019,1.816,15.035,0.558
